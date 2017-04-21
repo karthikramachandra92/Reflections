@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    | Local repository gets created with zero commits. If a repository 
+    | is not created by default(i.e. cloned), a new repository needs to 
+    | created to handle version control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+    
+    | Staging area works as the intermediate area between working directory and 
+    | commit area. Items in this area qualify to be commited to repository.
+    | It offers the freedom to move only required files into repository. Keep 
+    | temporary files out of repository but in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
